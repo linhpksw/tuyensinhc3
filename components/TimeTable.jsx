@@ -6,7 +6,7 @@ const TimeTable = () => {
         {
             no: 1,
             grade: 'LỚP 10A0 - VẬN DỤNG CAO',
-            opening: 'Khai giảng vào 19h30 Thứ Tư ngày 02/08',
+            opening: 'Khai giảng vào 19h30 Thứ Tư ngày 02/08 tại phòng 309.',
             child: [
                 {
                     subject: 'Hình học',
@@ -25,7 +25,7 @@ const TimeTable = () => {
         {
             no: 2,
             grade: 'LỚP 10A1 - NÂNG CAO',
-            opening: 'Khai giảng vào 19h30 Thứ Tư ngày 02/08',
+            opening: 'Khai giảng vào 19h30 Thứ Tư ngày 02/08 tại phòng 204.',
             child: [
                 {
                     subject: 'Hình học',

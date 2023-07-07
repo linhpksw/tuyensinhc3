@@ -42,8 +42,8 @@ export default sendEmail;
 
 function generateHtmlContent(data) {
     const info = {
-        'Lớp 10A0 - vận dụng cao': 'Khai giảng vào 19h30 Thứ Tư ngày 02/08.',
-        'Lớp 10A1 - nâng cao': 'Khai giảng vào 19h30 Thứ Tư ngày 02/08.',
+        'Lớp 10A0 - vận dụng cao': 'Khai giảng vào 19h30 Thứ Tư ngày 02/08 tại phòng 309.',
+        'Lớp 10A1 - nâng cao': 'Khai giảng vào 19h30 Thứ Tư ngày 02/08 tại phòng 204.',
     };
 
     const note = info[data[0].subject];
@@ -142,9 +142,9 @@ function generateHtmlContent(data) {
 
   <hr style="margin-top: 30px" />
 
-  <a href="https://tuyensinh.clbanhsang.com">
+  <a href="https://tuyensinhc3.clbanhsang.com">
     <img
-      src="https://tuyensinh.clbanhsang.com/img/logo-alter.png"
+      src="https://tuyensinhc3.clbanhsang.com/img/logo-alter.png"
       alt="Logo Câu lạc bộ Toán Ánh Sáng"
       style="width:252px; height:40px; padding-top:20px"
     />

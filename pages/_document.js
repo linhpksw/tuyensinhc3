@@ -4,9 +4,9 @@ export default function Document() {
     return (
         <Html lang='vn'>
             <Head>
-                <meta property='og:image' content='https://tuyensinh.clbanhsang.com/img/hocbong-4.jpg' />
+                <meta property='og:image' content='https://tuyensinhc3.clbanhsang.com/img/hocbong-3.jpg' />
 
-                <meta property='og:url' content='https://tuyensinh.clbanhsang.com/' />
+                <meta property='og:url' content='https://tuyensinhc3.clbanhsang.com/' />
                 <meta property='og:type' content='website' />
                 <meta property='og:title' content='Câu lạc bộ Toán Ánh Sáng' />
                 <meta property='og:description' content='Trung tâm học toán chất lượng cao từ lớp 8 đến lớp 12' />
