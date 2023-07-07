@@ -135,7 +135,7 @@ function generateHtmlContent(data) {
 
   <p>
     Nếu thông tin trên không chính xác, phụ huynh nhấn chỉnh sửa
-    <a href="https://tuyensinh.clbanhsang.com/${data[0].registerPhone}"
+    <a href="https://tuyensinhc3.clbanhsang.com/${data[0].registerPhone}"
       >tại đây</a
     >.
   </p>

@@ -22,10 +22,8 @@ export default function MyModal({ onClose, registerPhone }) {
     };
 
     const classOptions = [
-        'Lớp 8 chuyên toán',
-        'Lớp 9A0 chuyên toán',
-        'Lớp 9A1 chuyên toán',
-        'Lớp 9A2 toán nâng cao'
+        'Lớp 10A0 - vận dụng cao',
+        'Lớp 10A1 - nâng cao',
     ];
 
     const renderStudentFields = () => {
