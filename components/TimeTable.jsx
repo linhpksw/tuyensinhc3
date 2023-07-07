@@ -5,82 +5,43 @@ const TimeTable = () => {
     const parent = [
         {
             no: 1,
-            grade: 'LỚP 8 CHUYÊN TOÁN',
-            opening: 'Kiểm tra xếp lớp vào 8h sáng ngày Chủ nhật 16/07 - Khai giảng ngày Thứ Ba 18/07',
+            grade: 'LỚP 10A0 - VẬN DỤNG CAO',
+            opening: 'Khai giảng vào 19h30 Thứ Tư ngày 02/08',
             child: [
                 {
                     subject: 'Hình học',
-                    time: 'Thứ 3 từ 19h30 - 21h30',
+                    time: 'Thứ 4 từ 19h30 - 21h15',
                     teacher: 'Thầy Lâm',
                 },
                 {
-                    subject: 'Đại số - Số học',
-                    time: 'Thứ 7 từ 19h30 - 21h30',
-                    teacher: 'PGS-TS Phùng Văn Mạnh',
+                    subject: 'Đại số',
+                    time: 'Thứ 2 từ 19h30 - 21h15',
+                    teacher: 'Thầy Hưng',
                 }
             ],
-            contact: 'Liên hệ cô Hường',
-            phone: '0362860970'
+            contact: 'Liên hệ thầy Lâm',
+            phone: '0988426803'
         },
         {
             no: 2,
-            grade: 'LỚP 9A0 CHUYÊN TOÁN',
-            opening: 'Kiểm tra xếp lớp đợt 2 từ 17h - 19h ngày Chủ nhật 18/06 - Khai giảng từ ngày Thứ Năm 08/06',
+            grade: 'LỚP 10A1 - NÂNG CAO',
+            opening: 'Khai giảng vào 19h30 Thứ Tư ngày 02/08',
             child: [
                 {
                     subject: 'Hình học',
-                    time: 'Chủ nhật từ 8h - 10h',
-                    teacher: 'Thầy Lâm',
-                },
-                {
-                    subject: 'Đại số - Số học',
-                    time: 'Thứ 5 từ 19h30 - 21h30',
-                    teacher: 'PGS-TS Phùng Văn Mạnh',
-                }
-            ],
-            contact: 'Liên hệ thầy Lâm',
-            phone: '0988426803'
-        },
-        {
-            no: 3,
-            grade: 'LỚP 9A1 CHUYÊN TOÁN',
-            opening: 'Kiểm tra xếp lớp đợt 2 từ 17h - 19h ngày Chủ nhật 18/06 - Khai giảng từ ngày Thứ Năm 08/06',
-            child: [
-                {
-                    subject: 'Hình học',
-                    time: 'Thứ 5 từ 19h30 - 21h30',
-                    teacher: 'Thầy Lâm',
-                },
-                {
-                    subject: 'Đại số - Số học',
-                    time: 'Chủ nhật từ 8h - 10h',
-                    teacher: 'PGS-TS Phùng Văn Mạnh',
-                }
-            ],
-            contact: 'Liên hệ cô Hường',
-            phone: '0362860970'
-        },
-        {
-            no: 4,
-            grade: 'LỚP 9A2 TOÁN NÂNG CAO',
-            opening: 'Không kiểm tra xếp lớp đầu vào - Khai giảng ngày Chủ Nhật 18/06',
-            child: [
-                {
-                    subject: 'Đại số',
-                    time: 'Chủ nhật từ 16h - 17h45',
+                    time: 'Thứ 4 từ 19h30 - 21h15',
                     teacher: 'Cô Hường',
                 },
                 {
-                    subject: 'Hình học và bất đẳng thức',
-                    time: 'Thứ 2 từ 19h45 - 21h30',
-                    teacher: 'Thầy Lâm',
+                    subject: 'Đại số',
+                    time: 'Thứ 2 từ 17h45 - 19h30',
+                    teacher: 'Thầy Phương',
                 }
             ],
-            contact: 'Liên hệ thầy Lâm',
-            phone: '0988426803'
-        },
 
-
+            contact: 'Liên hệ cô Hường',
+            phone: '0362860970'
+        }
     ]
 
     function classNames(...classes) {

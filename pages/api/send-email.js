@@ -42,14 +42,8 @@ export default sendEmail;
 
 function generateHtmlContent(data) {
     const info = {
-        'Lớp 8 chuyên toán':
-            'lịch kiểm tra xếp lớp dự kiến sẽ diễn ra vào 8h sáng Chủ nhật 16/07 và khai giảng vào Thứ Ba 18/07.',
-        'Lớp 9A0 chuyên toán':
-            'lịch kiểm tra xếp lớp đợt 2 sẽ diễn ra vào 17h Chủ nhật 18/06 và khai giảng từ Thứ Năm 08/06.',
-        'Lớp 9A1 chuyên toán':
-            'lịch kiểm tra xếp lớp đợt 2 sẽ diễn ra vào 17h Chủ nhật 18/06 và khai giảng từ Thứ Năm 08/06.',
-        'Lớp 9A2 toán nâng cao':
-            'đối với lớp toán nâng cao, học sinh không cần kiểm tra xếp lớp đầu vào. Lịch khai giảng sẽ vào Chủ nhật 18/06.',
+        'Lớp 10A0 - vận dụng cao': 'Khai giảng vào 19h30 Thứ Tư ngày 02/08.',
+        'Lớp 10A1 - nâng cao': 'Khai giảng vào 19h30 Thứ Tư ngày 02/08.',
     };
 
     const note = info[data[0].subject];
@@ -90,7 +84,7 @@ function generateHtmlContent(data) {
   </p>
 
   <p style="color: #e11d48;">
-    Cụ thể thông tin chi tiết, lớp toán sẽ gửi đến quý phụ huynh trong thời gian sớm nhất. Phụ huynh chú ý kiểm tra email và điện thoại để không lỡ mất lịch kiểm tra quan trọng này ạ.
+    Cụ thể thông tin chi tiết, lớp toán sẽ gửi đến quý phụ huynh trong thời gian sớm nhất. Phụ huynh chú ý kiểm tra email và điện thoại để không lỡ mất các thông tin quan trọng ạ.
   </p>
 
   ${data

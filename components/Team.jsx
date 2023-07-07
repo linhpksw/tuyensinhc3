@@ -3,25 +3,30 @@ import Container from "./Container"
 import giaovien1 from '../public/img/giaovien-1.jpg'
 import giaovien2 from '../public/img/giaovien-2.jpg'
 import giaovien3 from '../public/img/giaovien-3.jpg'
+import giaovien4 from '../public/img/giaovien-4.jpg'
 
 const Team = () => {
     const people = [
         {
             name: 'Thầy Đinh Hữu Lâm',
             src: giaovien3,
-            bio: 'Cựu học sinh chuyên toán khối phổ thông chuyên toán Sư Phạm; Cựu sinh viên lớp chất lượng cao K50 trường ĐHSP Hà Nội; Thạc sĩ chuyên ngành hình học trường ĐH KHTN; giải nhất Giáo viên giỏi thành phố Hà Nội 2014; tổ trưởng tổ Toán trường THPT chuyên Nguyễn Huệ, chuyên viên môn toán khối THPT Sở GDĐT Hà Nội, bồi dưỡng nhiều học sinh giỏi quốc gia.',
+            bio: 'Cựu học sinh chuyên toán khối phổ thông chuyên toán Sư Phạm; Cựu sinh viên lớp chất lượng cao K50 trường ĐHSP Hà Nội; Thạc sĩ chuyên ngành hình học trường ĐH KHTN; giải nhất Giáo viên giỏi thành phố Hà Nội 2014; Hiệu phó trường THPT chuyên Nguyễn Huệ, chuyên viên môn toán khối THPT Sở GDĐT Hà Nội, bồi dưỡng nhiều học sinh giỏi quốc gia.',
         },
         {
-            name: 'Thầy Phùng Văn Mạnh',
+            name: 'Thầy Nghiêm Ngọc Phương',
             src: giaovien1,
-            bio: 'Cựu học sinh chuyên toán trường chuyên Hưng Yên, giải NHÌ quốc gia môn toán; lớp trưởng lớp chất lượng cao K50 trường ĐHSP Hà Nội; học bổng toàn phần làm tiến sĩ khoa học tại Pháp; giảng viên tổ giải tích trường ĐHSP Hà Nội, năm 2017 thầy được vinh dự phong chức danh PGS ở tuổi 35.',
+            bio: 'Cựu học sinh chuyên toán Nguyễn Huệ, Giải Ba HSG QG môn toán, Cựu sinh viên lớp chất lượng cao K54 trường ĐHSP Hà Nội; GVCN lớp 10 chuyên toán THPT chuyên Nguyễn Huệ, tổ trưởng tổ Toán trường THPT chuyên Nguyễn Huệ, bồi dưỡng nhiều học sinh giỏi quốc gia.',
         },
         {
             name: 'Cô Đặng Thị Hường',
             src: giaovien2,
-            bio: 'Giáo viên toán trường THPT chuyên Nguyễn Huệ, luyện thi vào 10 và thi THPTQG lâu năm.',
+            bio: 'Thạc sĩ toán học - Giáo viên toán trường THPT chuyên Nguyễn Huệ, luyện thi vào 10 và thi THPTQG lâu năm.',
         },
-
+        {
+            name: 'Thầy Trần Bá Hưng',
+            src: giaovien4,
+            bio: 'Lớp trưởng lớp chuyên trường THPT chuyên Nguyễn Huệ. Tốt nghiệp loại xuất sắc chuyên ngành Sư phạm Toán - Dạy Toán bằng Tiếng Anh, khoa Toán-Tin, trường ĐHSP Hà Nội. Đã hoàn thành khóa học “Teaching Mathematics in English: Curriculum development and Teacher training” năm 2022, Đại sứ quán Hoa Kỳ.',
+        },
     ]
 
     return (
