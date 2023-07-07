@@ -63,17 +63,17 @@ const Hero = () => {
             <Container className='flex items-start flex-wrap lg:flex-nowrap lg:gap-10'>
                 <div id='about' className='flex items-center w-full lg:w-1/2'>
                     <div className='max-w-2xl mb-8 lg:mb-0'>
-                        <h1 className='text-2xl font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight '>
+                        <h1 className='text-2xl shadow-sm font-bold leading-snug tracking-tight text-gray-800 lg:text-4xl lg:leading-tight xl:text-6xl xl:leading-tight '>
                             Câu lạc bộ Toán Ánh Sáng
                         </h1>
 
-                        <p className='pt-3 pb-1 text-gray-500 text-[0.8rem] leading-7 md:text-[1.06rem]  md:leading-8'>
+                        <p className='pt-3 pb-1 text-gray-500 text-[1rem] leading-7 md:text-[1.06rem]  md:leading-8 shadow-sm'>
                             Kính gửi các quý vị phụ huynh học sinh và các con! Năm học 2023-2024, Trung tâm toán Câu lạc bộ Ánh Sáng tổ chức 2 lớp toán 10 ôn thi THPTQG.
                         </p>
-                        <p className='pb-1 text-gray-500 text-[0.8rem] leading-7 md:text-[1.06rem] md:leading-8'>
+                        <p className='pb-1 text-gray-500 text-[1rem] leading-7 md:text-[1.06rem] md:leading-8 shadow-sm'>
                             • Lớp 10A0 - Lớp vận dụng cao môn toán, dành cho các học sinh lớp chuyên toán lý hóa các trường chuyên, lớp chọn khối A và A1 trường LTV, LQĐ với mục tiêu điểm 9-10 môn toán thi đại học.
                         </p>
-                        <p className='text-gray-500 text-[0.8rem] leading-7 md:text-[1.06rem] md:leading-8'>
+                        <p className='text-gray-500 text-[1rem] leading-7 md:text-[1.06rem] md:leading-8 shadow-sm'>
                             • Lớp 10A1 - Lớp toán nâng cao, dành cho các học sinh khá giỏi các trường THPT, với mục tiêu điểm 9 môn toán thi đại học.
                         </p>
 
