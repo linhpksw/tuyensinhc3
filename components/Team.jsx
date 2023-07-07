@@ -26,7 +26,7 @@ const Team = () => {
         {
             name: 'Thầy Trần Bá Hưng',
             src: giaovien4,
-            bio: 'Lớp trưởng lớp chuyên trường THPT chuyên Nguyễn Huệ. Tốt nghiệp loại xuất sắc chuyên ngành Sư phạm Toán - Dạy Toán bằng Tiếng Anh, khoa Toán-Tin, trường ĐHSP Hà Nội. Đã hoàn thành khóa học “Teaching Mathematics in English: Curriculum development and Teacher training” năm 2022, Đại sứ quán Hoa Kỳ.',
+            bio: 'Cựu học sinh lớp chuyên trường THPT chuyên Nguyễn Huệ. Tốt nghiệp loại xuất sắc chuyên ngành Sư phạm Toán - Dạy Toán bằng Tiếng Anh, khoa Toán-Tin, trường ĐHSP Hà Nội. Đã hoàn thành khóa học “Teaching Mathematics in English: Curriculum development and Teacher training” năm 2022, Đại sứ quán Hoa Kỳ.',
         },
     ]
 
