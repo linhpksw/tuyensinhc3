@@ -4,6 +4,7 @@ import giaovien1 from '../public/img/giaovien-1.jpg'
 import giaovien2 from '../public/img/giaovien-2.jpg'
 import giaovien3 from '../public/img/giaovien-3.jpg'
 import giaovien4 from '../public/img/giaovien-4.jpg'
+import giaovien5 from '../public/img/giaovien-5.jpg'
 
 const Team = () => {
     const people = [
@@ -14,7 +15,7 @@ const Team = () => {
         },
         {
             name: 'Thầy Nghiêm Ngọc Phương',
-            src: giaovien1,
+            src: giaovien5,
             bio: 'Cựu học sinh chuyên toán Nguyễn Huệ, Giải Ba HSG QG môn toán, Cựu sinh viên lớp chất lượng cao K54 trường ĐHSP Hà Nội; GVCN lớp 10 chuyên toán THPT chuyên Nguyễn Huệ, tổ trưởng tổ Toán trường THPT chuyên Nguyễn Huệ, bồi dưỡng nhiều học sinh giỏi quốc gia.',
         },
         {
