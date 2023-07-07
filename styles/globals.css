@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.animation-hover:after {
+    background: none repeat scroll 0 0 transparent;
+    content: '';
+    height: 1.5px;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    @apply absolute bottom-0 left-1/2 block w-0 bg-indigo-500;
+}
+.animation-active:after {
+    @apply left-0 w-full;
+}
+.animation-hover:hover:after {
+    @apply left-0 w-full;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+    -webkit-text-fill-color: inherit !important;
+    z-index: 0;
+}
