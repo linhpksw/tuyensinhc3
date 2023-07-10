@@ -39,6 +39,7 @@ const Navbar = () => {
     const [activeLink, setActiveLink] = useState(null);
     const [scrollActive, setScrollActive] = useState(false);
 
+
     useEffect(() => {
         window.addEventListener('scroll', () => {
             setScrollActive(window.scrollY > 20);
