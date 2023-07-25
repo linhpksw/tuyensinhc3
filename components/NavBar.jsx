@@ -40,15 +40,29 @@ const Navbar = () => {
     const [scrollActive, setScrollActive] = useState(false);
 
 
-    // useEffect(() => {
-    //     window.addEventListener('scroll', () => {
-    //         setScrollActive(window.scrollY > 20);
-    //     });
-    // }, []);
+    const debounce = (func, wait) => {
+        let timeout;
+        return function executedFunction(...args) {
+            const later = () => {
+                clearTimeout(timeout);
+                func(...args);
+            };
+            clearTimeout(timeout);
+            timeout = setTimeout(later, wait);
+        };
+    };
 
-    window.addEventListener('scroll', () => {
-        setScrollActive(window.scrollY > 20);
-    });
+
+    useEffect(() => {
+        const checkScroll = debounce(() => {
+            setScrollActive(window.scrollY > 20);
+        }, 50);  // Change delay as needed
+
+        window.addEventListener('scroll', checkScroll);
+
+        // Cleanup function
+        return () => window.removeEventListener('scroll', checkScroll);
+    }, []);
 
     return (
         <header className={`lg:sticky lg:bg-white  lg:top-0 lg:z-50 lg:px-8 lg:transition-all lg:w-full ${scrollActive ? ' lg:shadow-md lg:pt-1' : ' lg:pt-6'}`}>
