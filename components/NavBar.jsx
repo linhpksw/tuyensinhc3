@@ -40,11 +40,15 @@ const Navbar = () => {
     const [scrollActive, setScrollActive] = useState(false);
 
 
-    useEffect(() => {
-        window.addEventListener('scroll', () => {
-            setScrollActive(window.scrollY > 20);
-        });
-    }, []);
+    // useEffect(() => {
+    //     window.addEventListener('scroll', () => {
+    //         setScrollActive(window.scrollY > 20);
+    //     });
+    // }, []);
+
+    window.addEventListener('scroll', () => {
+        setScrollActive(window.scrollY > 20);
+    });
 
     return (
         <header className={`lg:sticky lg:bg-white  lg:top-0 lg:z-50 lg:px-8 lg:transition-all lg:w-full ${scrollActive ? ' lg:shadow-md lg:pt-1' : ' lg:pt-6'}`}>
